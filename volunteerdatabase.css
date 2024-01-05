@@ -1,0 +1,158 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+
+    ul button{
+        list-style-type: none;
+        margin: 0%;
+        padding: 0%;
+        width: 50px;
+        /* background-color: aqua;  */
+    }
+
+
+    .body {
+        display: inline-block;
+        width: 40%;
+        right: 20%;
+    }
+
+    h1{
+      text-align:right;
+      
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 60px; /* Adjust the margin to prevent content overlap */
+      margin-bottom: 20px;
+  }
+
+    .tdtd{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-evenly;
+   }  
+
+
+     .left {
+      float: left;
+      width: 20%;
+       }
+  
+     .right {
+     float: right;
+     width: 100%;
+      }
+      
+     
+
+      #navbar {
+      height: 50px;
+
+     opacity: 0;
+     transition: all .66s ease; 
+ }
+
+     #navbar.show {
+     opacity: 1;
+     height: 150px;
+    }
+    label{
+      width: 200px;
+      display: inline-block;
+      font-size: 24;
+      margin-left: 40px;
+    }
+    label{
+      width: 200px;
+      display: inline-block;
+      font-size: 24;
+      margin-left: 40px;
+      padding-top: 32px;
+    }
+    input[type="text"],
+    input[type="date"],
+    input[type="number"],
+    input[type="email"],
+    textarea,
+    select {
+        width: 50%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+       }
+   
+   
+   
+    textarea
+    {
+      max-width: 50%;
+      min-height :20px;
+      max-height: fit-content;;
+      display:ruby-text-container;
+    } 
+        
+    table{
+      margin-right: 40px;
+      height: 50px;
+    }
+   
+          
+      .button{
+        color: white;
+        background-color: #fcb040;      
+        padding: 5px;
+        height: 24px;
+        border: 1px;
+
+        
+    
+      }
+      
+      .button:hover
+      {
+        color: black;
+        opacity: .7;
+        padding: 5px; 
+        height: 24px;
+        border: 1px;
+    
+      }
+      .button1 {
+        color:#fcb040;
+        background-color:white;      
+        padding: 5px;
+         height: 24px;
+        border: 1px;
+    
+        
+      }
+      .button1 :hover{
+        color: black;
+        background-color: #ff9e2B;      
+        padding: 5px; 
+        height: 24px;
+        border: 1px;      
+      }
+      #divbuttons{
+        margin-left: 20%;
+      }
+      
+      /* priya */
+      .language{
+        display: flex;
+        margin-left: 20px;
+        line-height: 5em;
+      }
+
+      .language-container{
+        display: flex;
+      }
